@@ -1,0 +1,64 @@
+.modal-backdrop{
+    background: rgba(255,255,255 , 20) !important;
+}
+.modal-content{
+    border-color: #7e8183 !important;
+    border-width: 1px !important;
+    background-color: #FAFCFC !important;
+}
+.modal-header{
+    background: #EFF1F5;
+    color: #CF283D;
+    border-color: #7e8183 !important;
+    padding: 20px !important;
+    .modal-title{
+        padding: 0 0;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+.modal-body{
+    background: transparent;//#FAFCFC;
+    color: #4D5154;
+    // padding: 20px !important;
+    .row{
+        margin: 10px 0;
+        #pwSaveButton{
+            background: #E9424D;
+            color: #FEFAFA;
+            border-width: 0;
+        }
+        #pwCancelButton{
+            background: #FAFCFC;
+            color: #7e8183;
+            border-color: #7e8183;
+        }
+    }
+}
+
+.vertical-center {
+
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.container{
+    //width: 411px !important;
+    font-size: 14px !important;
+    margin-left: 0 !important;
+}
+#pwChangePasswordFirstContainer{
+    padding-right: 60px;
+}
+.modal-title{
+    font-size: 17px !important;
+    margin-left: 8px;
+}
+.Row-input{
+    padding: 0px !important;
+}
+
+#pwChangePasswordHeader{
+    padding-left: 23px;
+}

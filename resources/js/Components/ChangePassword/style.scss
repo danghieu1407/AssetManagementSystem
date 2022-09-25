@@ -1,0 +1,105 @@
+.modal-backdrop{
+    background: rgba(255,255,255 , 20) !important;
+}
+
+.modal-content{
+    border-color: #7e8183 !important;
+    border-width: 1px !important;
+    background-color: #FAFCFC !important;
+}
+.modal-header{
+    background: #EFF1F5;
+    color: #CF283D;
+    border-color: #7e8183 !important;
+    padding: 20px !important;
+    .row{
+        margin: 0;
+    }
+    .modal-title{
+        padding: 0 0;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+.modal-body{
+    background: transparent;//#FAFCFC;
+    color: #4D5154;
+    padding: 20px !important;
+    .row{
+        margin: 10px 0;
+
+        #pwSaveButton{
+            background: #E9424D;
+            color: #FEFAFA;
+            border-width: 0;
+        }
+        #pwCancelButton{
+            background: #FAFCFC;
+            color: #7e8183;
+            border-color: #7e8183;
+        }
+        #pwOldPasswordInput:focus{
+            box-shadow: none !important;
+            border-right: none;
+        }
+        #pwNewPasswordInput:focus{
+            box-shadow: none !important;
+            border-right: none;
+        }
+        #pwOldPasswordInput{
+            border-color: #7e8183;
+            border-right-width: 0;
+        }
+        #pwNewPasswordInput{
+            border-color: #7e8183;
+            border-right-width: 0;
+        }
+        #pwOldPasswordButton{
+            background-color: white !important;
+            border-color: #7e8183 #7e8183 #7e8183 white;
+            svg{
+                fill: black;
+            }
+        }
+        #pwNewPasswordButton{
+            background-color: white !important;
+            border-color: #7e8183 #7e8183 #7e8183 white;
+            svg{
+                fill: black;
+            }
+        }
+        #pwOldPasswordButton:hover{
+            border-left: none;
+            background-color: white;
+            border-width: 1px;
+            border-color: #7e8183 #7e8183 #7e8183 white;
+        }
+        #pwNewPasswordButton:hover{
+            border-left: none;
+            background-color: white;
+            border-width: 1px;
+            border-color: #7e8183 #7e8183 #7e8183 white;
+        }
+        #pwOldPasswordError{
+            color: #e73a44;
+            margin: -10px 0;
+        }
+        #pwNewPasswordError{
+            color: #e73a44;
+            margin: -10px 0;
+        }
+    }
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.modal-content{
+    margin-top: 147px !important;
+}
+#logoutText{
+    padding-bottom: 15px;
+}

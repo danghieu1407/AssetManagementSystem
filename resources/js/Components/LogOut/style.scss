@@ -1,0 +1,32 @@
+.modal-backdrop {
+    background: rgba(255, 255, 255, 20) !important;
+}
+
+.modal-content {
+    border-color: #8d8f91 !important;
+    border-width: 1px !important;
+}
+.modal-header {
+    background: #eff1f5;
+    color: #cf283d;
+    border-color: #8d8f91 !important;
+    padding: 15px !important;
+    .modal-title{
+        padding: 0 0px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+#pwSaveButton{
+    background: #E9424D;
+    color: #FEFAFA;
+    border-width: 0;
+}
+#pwCancelButton{
+    background: #FAFCFC;
+    color: #7e8183;
+    border-color: #7e8183;
+}
+#logoutModal{
+    width: 250px;
+}

@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    padding: 20px 44px;
+    justify-content: space-between;
+    background-color: #dc3545;
+    color: white;
+    position: fixed;
+    top: 0;
+    min-width: 100vw;
+    z-index: 1200;
+    h5{
+        font-weight: 700 ;
+    }
+    .btn:focus{
+        box-shadow: none;
+    }
+    .dropdown-item:active{
+        background-color: #dc3545;
+    }
+    .dropdown-toggle::after{
+        margin-left: 0.75rem;
+    }
+
+}

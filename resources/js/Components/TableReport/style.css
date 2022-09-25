@@ -1,0 +1,242 @@
+.containermanageuser{
+    width: 1200px !important;
+}
+table {
+    border-collapse: separate !important;
+    border-spacing: 0px 20px !important;
+    font-size: 16px !important;
+
+}
+table > :not(caption) > * > *{
+    padding: 0px !important;
+}
+
+#oldPasswordButton{
+    background-color: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    color: #000 !important;
+    margin-left: px ;
+
+    border-radius: 5px !important;
+
+}
+#newPasswordButton{
+    background-color: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    color: #000 !important;
+    margin-left: 1px ;
+
+    border-radius: 5px !important;
+}
+
+.delete-icon{
+    color: rgb(220 53 69);
+}
+
+ .td-without_border{
+    border-bottom: none !important;
+    border-bottom-width: 0px;
+}
+a .page-link{
+    display: none !important;
+}
+
+.page-item .page-link{
+    color: #e73943 !important;
+}
+.page-item.disabled .page-link{
+    color: #8b9197 !important;
+}
+.page-item.active .page-link{
+    color: rgb(255, 255, 255) !important;
+    background-color: #e30c18 !important;
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+}
+.btn-filter .dropdown-toggle::after {
+    border: 1px solid #ddd !important;
+  }
+#btn-createnewuser{
+    background-color: rgb(220 53 69) !important;
+    color: rgb(255, 255, 255) !important;
+    border: none;
+    width: 200px;
+    margin-left: 50px;
+    height: 38px;
+
+}
+.btn-primary{
+    background-color: rgb(220 53 69) !important;
+    color: rgb(255, 255, 255) !important;
+    border: none;
+}
+.secondaryButton{
+    background-color: rgb(117, 117, 117) !important;
+    color: rgb(255, 255, 255) !important;
+    border: none !important;
+}
+
+.filter-button {
+    width: 126px;
+    height: 40px;
+    color: black !important;
+    background-color: rgb(255, 255, 255) !important;
+    border: rgb(206 212 218) 1px solid !important;
+  }
+
+  .filter-button,
+  .filter-button:hover,
+  .filter-button.btn-check:focus + .btn,
+  .btn:focus {
+    border: var(--2px) solid rgb(255, 255, 255) ;
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+  }
+
+  .filter-button .fb-icon {
+    border-left: 2px solid #ced4da;
+    padding-left: 5px;
+  }
+
+  button.filter-button.dropdown-toggle::after {
+    content: none;
+    align-items: center;
+  }
+
+
+  .search-bar{
+    margin-right: 40px;
+  }
+
+.form-check-input:checked{
+    background-color: rgb(220 53 69) !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(220 53 69) !important;
+}
+table{
+
+    margin-top: 10px;
+}
+thead{
+    box-shadow: 0 5px 10px #ced4da !important;
+    padding: 50px !important;
+    letter-spacing: 0.1rem;
+}
+.table > :not(caption) > * > *{
+    padding: 20px !important;
+    border-bottom: none !important;
+}
+tr{
+    box-shadow: 0 5px 10px #ced4da !important;
+    padding: 50px !important;
+    letter-spacing: 0.1rem;
+    border-spacing: 20px;
+}
+tbody{
+    margin-top: 20px !important;
+
+}
+
+#search-create{
+    width: 500px;
+    height: 38px;
+}
+#form-search{
+    width: 300px;
+}
+
+#inputsearch{
+    margin-left: 40px;
+}
+#search-form{
+    width: 140px;
+}
+
+#table-manage-user{
+    width: 1200px;
+}
+#img-nodata{
+    margin-left: 140px;
+    width: 50%;
+}
+#filter-search{
+    width: 1310px;
+}
+
+#secondFilterAsset{
+    margin-left: 20px;
+}
+#table-assignment{
+    font-size: 13px !important;
+}
+#undo-icon{
+    color: rgb(37, 139, 255);
+}
+.react-datepicker__day--selected{
+    background-color: rgb(220 53 69) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.react-datepicker__header {
+    background-color: rgb(220 53 69) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.react-datepicker__current-month{
+    color: rgb(255, 255, 255) !important;
+
+}
+.react-datepicker__day-name{
+    color: rgb(255, 255, 255) !important;
+}
+#button-assigned-date{
+    width: 180px;
+}
+#staff-asset-name{
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    /* border: 1px solid #000000; */
+    /* color: #e73943; */
+}
+
+.react-datepicker__day--keyboard-selected{
+    background-color: rgb(220 53 69) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.datePicker {
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    width: 0;
+    position: absolute;
+  }
+  #menu-datepicker{
+   border: none;
+   width: 0px;
+   height: 0px;
+   padding: 0px;
+   margin: 0px;
+   /* display: none; */
+  }
+  .react-datepicker-popper{
+    transform: translate(0px,7px) !important;
+  }
+
+  #div-btn-export{
+    display: flex;
+    justify-content: end;
+    width: 1300px;
+  }
+  #btn-export{
+    background-color: rgb(220 53 69) !important;
+    color: rgb(255, 255, 255) !important;
+    border: none;
+  }
+  
+  #table-container{
+    width: 1300px;
+}

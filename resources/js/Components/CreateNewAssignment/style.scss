@@ -1,0 +1,67 @@
+.modal-backdrop {
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+.modal-content {
+    border-color: #7e8183 !important;
+    border-width: 1px !important;
+    background-color: #FAFCFC !important;
+}
+
+.modal-header {
+    background: #EFF1F5;
+    color: #CF283D;
+    border-color: #7e8183 !important;
+    padding: 20px !important;
+
+    .row {
+        margin: 0;
+    }
+
+    .modal-title {
+        padding: 0 0;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+#table-user {
+
+
+    thead {
+        box-shadow: none !important;
+
+        tr {
+            
+            th {
+                border-bottom: 2px solid #7e8183 !important;
+                padding: 1px !important;
+                
+            margin: 1px !important;
+            }
+        }
+    }
+    tr {
+        
+
+        box-shadow: none !important;
+
+        td {
+            padding: 1px !important;
+            margin: 1px !important;
+            border-bottom: 1px solid #7e8183 !important;
+        }
+    }
+}
+
+#usSaveButton{
+    background: #E9424D !important;
+    color: #FEFAFA !important;
+    border-width: 0 !important;
+    margin-right: 5px !important;
+}
+#usCancelButton{
+    background: #FAFCFC !important;
+    color: #7e8183 !important;
+    border-color: #7e8183 !important;
+}

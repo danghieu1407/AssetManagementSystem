@@ -1,0 +1,5 @@
+export const userConstants = {
+    GET_ASSET_INFO: 'GET_ASSET_INFO',
+    GET_ASSET_EDIT: 'GET_ASSET_EDIT',
+    GET_ASSET_CREATE: 'GET_ASSET_CREATE'
+}

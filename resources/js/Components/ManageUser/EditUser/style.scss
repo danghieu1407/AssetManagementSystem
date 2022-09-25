@@ -1,0 +1,17 @@
+.editUser{
+    color:red;
+    font-weight: bolder;
+    font-size: 16px !important;
+}
+
+.custom-control-input:checked~.custom-control-label.red::before {
+    background-color: red;
+  }
+
+#containerFormEdit{
+    width: 40vw !important;
+    max-width: 600px;
+}
+#userNameDisable{
+    color: gray;
+}

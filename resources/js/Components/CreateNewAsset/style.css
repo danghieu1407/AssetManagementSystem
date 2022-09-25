@@ -1,0 +1,17 @@
+h4 {
+  color: #dc3545;
+}
+form{
+  font-size: 16px !important;
+}
+#containerFormCreate{
+  width: 40vw !important;
+  max-width: 600px;
+}
+#dropdown-basic-button{
+  width: 100%;
+  background: none !important;
+  color: black !important;
+  text-align: left !important;
+  border-color:rgb(206, 212, 218);
+}

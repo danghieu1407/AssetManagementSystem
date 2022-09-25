@@ -1,0 +1,15 @@
+h4 {
+  color: #dc3545;
+}
+form{
+  font-size: 16px !important;
+}
+#containerFormCreate{
+  width: 40vw !important;
+  max-width: 600px;
+}
+#nodataimg-create{
+  width: 500px !important;
+  margin-left: 135px;
+}
+
